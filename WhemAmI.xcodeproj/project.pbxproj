@@ -60,7 +60,6 @@
 		48D26E471982771700FA2345 = {
 			isa = PBXGroup;
 			children = (
-				48D26E7219827B7700FA2345 /* CoreLocation.framework */,
 				48D26E521982771700FA2345 /* WhemAmI */,
 				48D26E651982771700FA2345 /* WhemAmITests */,
 				48D26E511982771700FA2345 /* Products */,
@@ -92,6 +91,7 @@
 			isa = PBXGroup;
 			children = (
 				48D26E541982771700FA2345 /* Info.plist */,
+				48D26E7219827B7700FA2345 /* CoreLocation.framework */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -162,9 +162,11 @@
 				TargetAttributes = {
 					48D26E4F1982771700FA2345 = {
 						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0830;
 					};
 					48D26E611982771700FA2345 = {
 						CreatedOnToolsVersion = 6.0;
+						LastSwiftMigration = 0830;
 						TestTargetID = 48D26E4F1982771700FA2345;
 					};
 				};
@@ -332,6 +334,7 @@
 				INFOPLIST_FILE = WhemAmI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -343,6 +346,7 @@
 				INFOPLIST_FILE = WhemAmI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -361,6 +365,7 @@
 				INFOPLIST_FILE = WhemAmITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Debug;
@@ -376,6 +381,7 @@
 				INFOPLIST_FILE = WhemAmITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUNDLE_LOADER)";
 			};
 			name = Release;
@@ -399,6 +405,7 @@
 				48D26E6E1982771700FA2345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		48D26E6F1982771700FA2345 /* Build configuration list for PBXNativeTarget "WhemAmITests" */ = {
 			isa = XCConfigurationList;
@@ -407,6 +414,7 @@
 				48D26E711982771700FA2345 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
